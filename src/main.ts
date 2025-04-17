@@ -1,4 +1,4 @@
-import { AppFactory } from "./common";
+import { AppFactory } from "@lib/common";
 import { AppModule } from "./module";
 
 function bootstrap() {

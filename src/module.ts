@@ -1,4 +1,4 @@
-import { Module } from "./common";
+import { Module } from "@lib/common";
 import { TestController } from "./controllers/test-controller";
 
 @Module({

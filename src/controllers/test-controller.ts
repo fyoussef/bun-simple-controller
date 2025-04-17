@@ -1,6 +1,4 @@
-import { Controller } from "../common";
-import { Delete, Get, Post } from "../common/http-methods";
-import { Body, Param, Query } from "../common/query";
+import { Body, Controller, Delete, Get, Param, Post, Query } from "@lib/common";
 
 @Controller("test")
 export class TestController {

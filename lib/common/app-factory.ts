@@ -4,7 +4,7 @@ import { MODULE_METADATA } from "./constants";
 import { getControllerRoute } from "./controller";
 import { getMethod, getRoute, type HttpMethod } from "./http-methods";
 import type { ModuleMetadata } from "./module";
-import { callControllerMethodWithParams } from "./query";
+import { callControllerMethodWithParams } from "./params";
 
 export class AppFactory {
   static create(target: any) {

@@ -1,0 +1,18 @@
+{
+  "name": "ceritificates",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --watch src/main.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "elysia": "^1.2.25",
+    "reflect-metadata": "^0.2.2"
+  }
+}

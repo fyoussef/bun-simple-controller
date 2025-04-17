@@ -3,3 +3,4 @@ export const MODULE_METADATA = "custome:module";
 export const ROUTE_METADATA = "custom:route";
 export const METHOD_METADATA = "custom:method";
 export const PARAMS_METADATA = "custom:params";
+export const COMMAND_HANDLER_METADATA = "cqrs:command_handler";

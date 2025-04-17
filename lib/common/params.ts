@@ -1,5 +1,5 @@
 import "reflect-metadata";
-import { PARAMS_METADATA } from "./constants";
+import { PARAMS_METADATA } from "../constants";
 import type { ControllerClass } from "./controller";
 
 export enum ParamType {

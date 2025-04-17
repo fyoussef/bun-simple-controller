@@ -1,5 +1,5 @@
 import "reflect-metadata";
-import { CONTROLLER_METADATA } from "./constants";
+import { CONTROLLER_METADATA } from "../constants";
 
 export type ControllerClass = {
   new (...args: any[]): any; // construtor

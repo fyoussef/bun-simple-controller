@@ -1,6 +1,6 @@
 import { Elysia } from "elysia";
+import { MODULE_METADATA } from "../constants";
 import type { Constructor } from "../types";
-import { MODULE_METADATA } from "./constants";
 import { getControllerRoute } from "./controller";
 import { getMethod, getRoute, type HttpMethod } from "./http-methods";
 import type { ModuleMetadata } from "./module";

@@ -1,6 +1,6 @@
 import "reflect-metadata";
+import { MODULE_METADATA } from "../constants";
 import type { ArrayOfClasses } from "../types";
-import { MODULE_METADATA } from "./constants";
 
 export interface ModuleMetadata {
   controllers?: ArrayOfClasses;

@@ -1,5 +1,5 @@
 import "reflect-metadata";
-import { METHOD_METADATA, ROUTE_METADATA } from "./constants";
+import { METHOD_METADATA, ROUTE_METADATA } from "../constants";
 
 export type HttpMethod = "GET" | "POST" | "PUT" | "DELETE" | "PATCH";
 
